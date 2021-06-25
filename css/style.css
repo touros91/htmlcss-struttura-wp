@@ -24,25 +24,39 @@ header {
     margin: 20px 0;
 }
 
+/* prima sezione  */
 .first-container {
     height: 400px;
     background-color: #E1D67A;
 }
 
+/* seconda sezione  */
 .second-container {
     height: 400px;
     background-color: #0086FF;
     margin: 20px 0 10px 0;
 }
 
-.bottom-color {
-    background-color: #ABCFE7;
-}
-
-.top {
+/* riga in alto  */
+.top-row{
     height: 60px;
     background-color: #ABCFE7;
     margin-bottom: 20px;
 }
 
+/* colonne  */
+.col-left, .col-center, .col-right {
+    float: left;
+    height: 300px;
+    background-color: #ABCFE7;
+}
+
+.col-left, .col-right {
+    width: 20%;
+}
+
+.col-center {
+    width: calc(60% - 20px);
+    margin: 0 10px;
+}
 
