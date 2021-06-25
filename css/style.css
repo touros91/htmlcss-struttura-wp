@@ -34,7 +34,7 @@ header {
 .second-container {
     height: 400px;
     background-color: #0086FF;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 5px 0;
 }
 
 /* riga in alto  */
@@ -58,5 +58,11 @@ header {
 .col-center {
     width: calc(60% - 20px);
     margin: 0 10px;
+}
+
+/* footer  */
+footer {
+    height: 50px;
+    background-color: #8800FE;
 }
 
