@@ -20,13 +20,13 @@
 /* header  */
 header {
     background-color: #E679E6;
-    height: 150px;
+    height: 100px;
     margin: 20px 0;
 }
 
 /* prima sezione  */
 .first-container {
-    height: 400px;
+    height: 300px;
     background-color: #E1D67A;
 }
 
@@ -37,10 +37,14 @@ header {
     margin: 20px 0 5px 0;
 }
 
-/* riga in alto  */
+/* colore riga e colonne seconda section del main  */
+.row-col-color {
+    background-color: #ABCFE7;
+}
+
+/* riga  */
 .top-row{
     height: 60px;
-    background-color: #ABCFE7;
     margin-bottom: 20px;
 }
 
@@ -48,7 +52,6 @@ header {
 .col-left, .col-center, .col-right {
     float: left;
     height: 300px;
-    background-color: #ABCFE7;
 }
 
 .col-left, .col-right {
@@ -66,4 +69,3 @@ footer {
     background-color: #8800FE;
     margin-bottom: 20px;
 }
-
