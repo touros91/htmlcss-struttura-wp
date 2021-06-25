@@ -29,4 +29,20 @@ header {
     background-color: #E1D67A;
 }
 
+.second-container {
+    height: 400px;
+    background-color: #0086FF;
+    margin: 20px 0 10px 0;
+}
+
+.bottom-color {
+    background-color: #ABCFE7;
+}
+
+.top {
+    height: 60px;
+    background-color: #ABCFE7;
+    margin-bottom: 20px;
+}
+
 
