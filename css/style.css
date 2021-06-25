@@ -1,0 +1,28 @@
+/* reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* header  */
+header {
+    background-color: #E679E6;
+    height: 150px;
+    margin: 20px 0;
+}
+
+
+
