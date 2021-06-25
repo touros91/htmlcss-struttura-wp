@@ -43,12 +43,16 @@ header {
 }
 
 /* riga  */
-.top-row{
+.top-row.col-color{
     height: 60px;
     margin-bottom: 20px;
 }
 
 /* colonne  */
+.col-color {
+    background-color: #ABCFE7;
+}
+
 .col-left, .col-center, .col-right {
     float: left;
     height: 300px;
